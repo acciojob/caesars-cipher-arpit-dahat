@@ -32,7 +32,7 @@ const lookup = {
 };
 
 function rot13(encodedStr) {
-  let decodedArr = " "; // Your Result goes here
+  let decodedArr = ""; // Your Result goes here
   // Only change code below this line
 	let A = 'A'.charCodeAt[0];
 	let Z = 'Z'.charCodeAt[0];
@@ -41,7 +41,7 @@ function rot13(encodedStr) {
 		if(currentChar <= Z && currentChar >= A){
 			decodedArr += lookup[encodedStr[i]]
 		}else{
-			decodedArr += encodedStr[i];
+			decodedArr += encodedStrgit[i];
 		}
 	}
 
