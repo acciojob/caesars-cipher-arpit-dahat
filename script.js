@@ -41,7 +41,7 @@ function rot13(encodedStr) {
 		if(currentChar <= Z && currentChar >= A){
 			decodedArr += lookup[encodedStr[i]]
 		}else{
-			decodedArr += encodedStrgit[i];
+			decodedArr += encodedStr[i];
 		}
 	}
 
